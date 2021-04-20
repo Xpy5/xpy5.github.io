@@ -1716,9 +1716,158 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <div class="notices warning" data-title="File in revisione">
-  Documento in revisione
-</div>
+    <h3 id="protocollo-romeo-radar">Protocollo Romeo (Radar)</h3>
+<p><em><strong>nome in codice: &ldquo;Romeo&rdquo;</strong></em></p>
+<h3 id="guida">Guida:</h3>
+<figure >
+  
+    
+    <img data-src="/prRomeo/preview_MapLegend.png"  data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="300px" height=""/>
+    
+  
+</figure>
+<pre><code>1. Range
+2. Tipo di Targets
+3. Background Mappa
+4. Superfice Mappa
+5. Anelli mappa (33.3%, 66.7%, e 100% del Range)
+6. Indicatore di Distanza
+7. Segnale dell'Entità
+</code></pre>
+<h5 id="esistono-3-tipi-di-segnalini-che-possono-comparire-nel-radar">Esistono 3 tipi di Segnalini che possono comparire nel Radar:</h5>
+<ul>
+<li>Triangolo (Navi o Stazioni)</li>
+<li>Quadrato (Giocatori)</li>
+<li>Cerchio (Asteroidi)</li>
+</ul>
+<h5 id="questi-segnalini-possono-avere-5-colori-diversi-i-quali-dipendono-dalla-ostilità-che-hanno-nei-vostri-confronti">Questi Segnalini possono avere 5 colori diversi, i quali dipendono dalla ostilità che hanno nei vostri confronti:</h5>
+<ul>
+<li>Blu  (proprie griglie)</li>
+<li>Verde (Alleati)</li>
+<li>Giallo (Neutrali)</li>
+<li>Rosso (Nemici)</li>
+<li>Bianco (senza proprietà)</li>
+</ul>
+<h6 id="note">Note:</h6>
+<ul>
+<li>Per accedere al menù delle impostazioni della mappa: aprire la chat con &ldquo;ENTER&rdquo;, premere il tasto &ldquo;F2&rdquo; e in seguito comparità un menù nel quale potete modificare alcune impostazioni (ClientSide).</li>
+<li>Un asteroide non può avere un propietario e di conseguenza il suo colore sarà sempre Bianco (Nella Mappa).</li>
+<li>Si può aggiungere il Radar anche sui pannelli LCD: accedere al terminale del LCD e nella sezione &ldquo;Content&rdquo;, inserie la voce &ldquo;Script&rdquo; e successivamente selezionare &ldquo;MiniMap by jTurp&rdquo;.</li>
+<li>Se vi avvicinate ad un LCD con il radar istallato, il vostro radar in alto a destra scomparirà in automatico.</li>
+<li>Esiste una Mappa più grande, simile ad una cartina nautica ma applicata nel ambito spaziale. Tramite una combinazioni di tasti (SHIFT + U) si può accedere alla mappa precedentemente citata. Questa mappa vi permette di visualizzare delle informazioni aggiuntive sulle navi attorno a voi.</li>
+<li>Il Range minimo è 0m e quello massimo è 5000m.</li>
+</ul>
+<hr>
+<h5 id="key-bindings">Key Bindings</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Tasti</th>
+<th style="text-align:center">Funzione</th>
+<th style="text-align:center">Valori</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">SHIFT + Rotella</td>
+<td style="text-align:center">Zoom in/out</td>
+<td style="text-align:center">X10m</td>
+</tr>
+<tr>
+<td style="text-align:center">CTRL + Rotella</td>
+<td style="text-align:center">Zoom in/out</td>
+<td style="text-align:center">X100m</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + CTRL + Rotella</td>
+<td style="text-align:center">Zoom in/out</td>
+<td style="text-align:center">X1000m</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + M</td>
+<td style="text-align:center">Toggle Map</td>
+<td style="text-align:center">On/Off</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + V</td>
+<td style="text-align:center">Toggle Voxel</td>
+<td style="text-align:center">On/Off</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + T</td>
+<td style="text-align:center">Cycle Displayer Entities</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + B</td>
+<td style="text-align:center">Toggle Bots</td>
+<td style="text-align:center">On/Off</td>
+</tr>
+<tr>
+<td style="text-align:center">SHIFT + U</td>
+<td style="text-align:center">Toggle Universe Map</td>
+<td style="text-align:center">On/Off</td>
+</tr>
+</tbody>
+</table>
+<h6 id="note-1">Note:</h6>
+<ul>
+<li>Le combinazioni &ldquo;SHIFT + M, V, T, B, U&rdquo; sono solo dei esempi.</li>
+<li>Per fare il Key Bindings bisogna accedere al menù delle impostazioni e andare sotto la voce &ldquo;Key Bindings&rdquo;.</li>
+</ul>
+<h5 id="comandi-chat">Comandi Chat</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Comandi</th>
+<th style="text-align:center">Descrizione</th>
+<th style="text-align:center">Valori</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">/map range <!-- raw HTML omitted --></td>
+<td style="text-align:center">Imposta un range preciso</td>
+<td style="text-align:center">Valore numerico in metri</td>
+</tr>
+<tr>
+<td style="text-align:center">/map targets <!-- raw HTML omitted --></td>
+<td style="text-align:center">Imposta un target</td>
+<td style="text-align:center">All - F - N - NE - E</td>
+</tr>
+<tr>
+<td style="text-align:center">/map Show</td>
+<td style="text-align:center">Mostra o nasconde la mappa dal HUD</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">/map show cockpit</td>
+<td style="text-align:center">Mostra o nasconde la mappa dal cockpit</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<pre><code>All = tutti
+F = Alleati
+N = solo i Neutrali
+NE = Neutrali / Nemici
+E = solo i Nemici
+</code></pre>
+<hr>
+<h3 id="protocolli-corto-raggio">Protocolli Corto raggio</h3>
+<ul>
+<li>Romeo - Alpha: Impostare il Range a 1000m. Per scontri ravvicinati o per individuare meglio le entità intorno alla nave.</li>
+<li>Romeo - Beta: Impostare il Range a 2000m. Per ingaggi a corto raggio in fase di combattimento.</li>
+</ul>
+<h3 id="protocolli-medio-raggio">Protocolli Medio raggio</h3>
+<ul>
+<li>Romeo - Gamma: Impostare il Range a 2500m - 3000m. Stato di allerta minimo. Per scansione a medio-lungo raggio, utile per quando si è in movimento.</li>
+</ul>
+<h3 id="protocolli-lungo-raggio">Protocolli Lungo raggio</h3>
+<ul>
+<li>Romeo - Delta: Impostare il Range a &gt; 3000m. Stato di allerta medio-minima. Per scansioni a lunga distanza, utile per segnalare navi in lontananza, per localizzare relitti oppure per viaggi con una velocità pari o superiore a 100 m/s.</li>
+</ul>
+<hr>
 
   </article>
 </div>
