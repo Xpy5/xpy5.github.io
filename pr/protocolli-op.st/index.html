@@ -1717,7 +1717,7 @@
 
   <article class="single__contents" data-dir="ltr">
     <h3 id="protocolli-operativi-standard">Protocolli Operativi Standard</h3>
-<p><strong>Nessun contatto:</strong> Raggio armamenti 0 metri / Armi spente</p>
+<p><strong>Nessun contatto:</strong> Armi spente/range armi 0</p>
 <p><strong>Lista Armamenti:</strong></p>
 <table>
 <thead>
@@ -1745,7 +1745,19 @@
 <td style="text-align:center">Ingaggi Ordinari</td>
 <td style="text-align:center">In Movimento</td>
 <td style="text-align:center">Nato25x184</td>
-<td style="text-align:center">Letali se a Fuoco Continuo</td>
+<td style="text-align:center">Incapacitante</td>
+</tr>
+<tr>
+<td style="text-align:center">HPDC</td>
+<td style="text-align:center">PDC LGC-200 &ldquo;Nariman&rdquo;</td>
+<td style="text-align:center">1200m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Ingaggi Ordinari</td>
+<td style="text-align:center">In Movimento</td>
+<td style="text-align:center">70mm Nariman</td>
+<td style="text-align:center">Incapacitante</td>
 </tr>
 <tr>
 <td style="text-align:center">Lanciamissili</td>
@@ -1754,10 +1766,10 @@
 <td style="text-align:center">-</td>
 <td style="text-align:center">On/Off</td>
 <td style="text-align:center">Sicura - Toggle Click to Fire</td>
-<td style="text-align:center">Navi Maggiori</td>
+<td style="text-align:center">Ingaggi Ordinari</td>
 <td style="text-align:center">&lt;100 m/s</td>
 <td style="text-align:center">Destroyer Missile X</td>
-<td style="text-align:center">Sciame di Missili Veloci e Precisi</td>
+<td style="text-align:center">Sciame di Missili Veloci - preciso</td>
 </tr>
 <tr>
 <td style="text-align:center">Siluri</td>
@@ -1769,67 +1781,175 @@
 <td style="text-align:center">Risposta Letale</td>
 <td style="text-align:center">Stazionari</td>
 <td style="text-align:center">Boomer Torpedo</td>
-<td style="text-align:center">Incapacitanti, più Lenti e Letali</td>
-</tr>
-<tr>
-<td style="text-align:center">Railgun</td>
-<td style="text-align:center">VX14 Iron-Hide</td>
-<td style="text-align:center">10000m</td>
-<td style="text-align:center">Controllo Manuale</td>
-<td style="text-align:center">On/Off</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Distruzione</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">250kg W + U</td>
-<td style="text-align:center">Incapacitante e Distruttiva</td>
-</tr>
-<tr>
-<td style="text-align:center">VX-08</td>
-<td style="text-align:center">VX-08 &ldquo;Dagger&rdquo;</td>
-<td style="text-align:center">3500m</td>
-<td style="text-align:center">SubSystem ON</td>
-<td style="text-align:center">On/Off</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Risposta Letale</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">35mm Railgun spike</td>
-<td style="text-align:center">Incapacitante e penetrante</td>
-</tr>
-<tr>
-<td style="text-align:center">VX-10</td>
-<td style="text-align:center">VX-10 &ldquo;Pacifier&rdquo;</td>
-<td style="text-align:center">3800m</td>
-<td style="text-align:center">SubSystem ON</td>
-<td style="text-align:center">On/Off</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Risposta Letale</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">265mm Railgun spike</td>
-<td style="text-align:center">Incapacitante e distruttiva</td>
-</tr>
-<tr>
-<td style="text-align:center">HPDC</td>
-<td style="text-align:center">HPDC &ldquo;Nariman&rdquo;</td>
-<td style="text-align:center">1300m</td>
-<td style="text-align:center">SubSystem ON</td>
-<td style="text-align:center">On/Off</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Risposta Letale</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">70mm Nariman Ammobox</td>
-<td style="text-align:center">Letali se a Fuoco Continuo</td>
+<td style="text-align:center">Missile Singolo Lento - distruttivo</td>
 </tr>
 <tr>
 <td style="text-align:center">Avenger</td>
-<td style="text-align:center">HLPT &ldquo;Avenger&rdquo;</td>
-<td style="text-align:center">1300m</td>
+<td style="text-align:center">H.PDC HGC-185 &ldquo;Avenger&rdquo;</td>
+<td style="text-align:center">1500m</td>
 <td style="text-align:center">SubSystem ON</td>
 <td style="text-align:center">On/Off</td>
 <td style="text-align:center">-</td>
 <td style="text-align:center">Risposta Letale</td>
 <td style="text-align:center">-</td>
-<td style="text-align:center">185	Averger Ammobox</td>
-<td style="text-align:center">Letali se a Fuoco Continuo</td>
+<td style="text-align:center">Autocannon 185mm</td>
+<td style="text-align:center">Incapacitante</td>
+</tr>
+<tr>
+<td style="text-align:center">RT-200</td>
+<td style="text-align:center">Railgun RT-200 &ldquo;HOFUND&rdquo;</td>
+<td style="text-align:center">5500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Railgun 256mm</td>
+<td style="text-align:center">Incapacitante - penetrante</td>
+</tr>
+<tr>
+<td style="text-align:center">RTP-250</td>
+<td style="text-align:center">Railgun RTP-250 &ldquo;STALLION&rdquo;</td>
+<td style="text-align:center">2500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Railgun	35mm</td>
+<td style="text-align:center">Incapacitante - penetrante</td>
+</tr>
+<tr>
+<td style="text-align:center">RT-500</td>
+<td style="text-align:center">Railgun RT-500 &ldquo;HOFUND-EVO&rdquo;</td>
+<td style="text-align:center">5500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Railgun 256mm</td>
+<td style="text-align:center">Incapacitante - penetrante - distruttivo</td>
+</tr>
+<tr>
+<td style="text-align:center">HPA-500</td>
+<td style="text-align:center">HPA-500 &ldquo;LOKI&rdquo;</td>
+<td style="text-align:center">3200m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">14584.00 MJ</td>
+<td style="text-align:center">Altamente penetrante - Laser</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-635</td>
+<td style="text-align:center">HFC-635 &ldquo;THOR&rdquo;</td>
+<td style="text-align:center">4500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Flak 635mm</td>
+<td style="text-align:center">Altamente penetrante</td>
+</tr>
+<tr>
+<td style="text-align:center">S-HFC-635</td>
+<td style="text-align:center">HFC-635 Ship-Mount &ldquo;THOR&rdquo;</td>
+<td style="text-align:center">4500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Flak 635mm</td>
+<td style="text-align:center">Altamente penetrante</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-800</td>
+<td style="text-align:center">HFC-800 &ldquo;ODIN&rdquo;</td>
+<td style="text-align:center">4500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Flak 635mm</td>
+<td style="text-align:center">Incapacitante - distruttivo</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-1000</td>
+<td style="text-align:center">HFC-1000 &ldquo;RAGNAROK&rdquo;</td>
+<td style="text-align:center">8500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Flak 1000mm</td>
+<td style="text-align:center">Incapacitante - penetrante - distruttivo</td>
+</tr>
+<tr>
+<td style="text-align:center">HGC-1200</td>
+<td style="text-align:center">HGC-1200 &ldquo;HEIMDALL&rdquo;</td>
+<td style="text-align:center">12500m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Gauss 1200</td>
+<td style="text-align:center">Altamente penetrante - distruttivo - preciso</td>
+</tr>
+<tr>
+<td style="text-align:center">SML-7</td>
+<td style="text-align:center">SML-7 &ldquo;HUGIN&rdquo;</td>
+<td style="text-align:center">5000m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">Sicura - Toggle Click to Fire</td>
+<td style="text-align:center">Ingaggi Ordinari</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Hugin Missile</td>
+<td style="text-align:center">Sciame di Missili Veloci - poco preciso</td>
+</tr>
+<tr>
+<td style="text-align:center">HTL-1</td>
+<td style="text-align:center">HTL-1 &ldquo;YMIR&rdquo;</td>
+<td style="text-align:center">5000m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">Sicura - Toggle Click to Fire</td>
+<td style="text-align:center">Ingaggi Ordinari</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Heavy Torpedo</td>
+<td style="text-align:center">Missile Singolo Lento - distruttivo -</td>
+</tr>
+<tr>
+<td style="text-align:center">HTL-3</td>
+<td style="text-align:center">HTL-3 &ldquo;YMIR&rdquo;</td>
+<td style="text-align:center">5000m</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">Sicura - Toggle Click to Fire</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Heavy Torpedo</td>
+<td style="text-align:center">Missile Singolo Veloce - distruttivo - preciso</td>
+</tr>
+<tr>
+<td style="text-align:center">MBML-666</td>
+<td style="text-align:center">MBML-666 &ldquo;MJOLNIR&rdquo;</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">SubSystem ON</td>
+<td style="text-align:center">On/Off</td>
+<td style="text-align:center">Sicura - Toggle Click to Fire</td>
+<td style="text-align:center">Risposta Letale</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Heavy Balistic Missile</td>
+<td style="text-align:center">Missile Singolo Lento - altamente distruttivo</td>
 </tr>
 </tbody>
 </table>
@@ -1851,6 +1971,12 @@
 <td style="text-align:center">Difesa perimetrale</td>
 </tr>
 <tr>
+<td style="text-align:center">HPDC</td>
+<td style="text-align:center">Focus subSystem</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
 <td style="text-align:center">Lanciamissili</td>
 <td style="text-align:center">Navi Maggiori</td>
 <td style="text-align:center">1 Click per volta</td>
@@ -1863,31 +1989,85 @@
 <td style="text-align:center">q.b.</td>
 </tr>
 <tr>
-<td style="text-align:center">Railgun</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">q.b.</td>
-<td style="text-align:center">q.b.</td>
-</tr>
-<tr>
-<td style="text-align:center">VX-08</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">q.b.</td>
-<td style="text-align:center">q.b.</td>
-</tr>
-<tr>
-<td style="text-align:center">VX-10</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">q.b.</td>
-<td style="text-align:center">q.b.</td>
-</tr>
-<tr>
-<td style="text-align:center">HPDC</td>
-<td style="text-align:center">Off</td>
-<td style="text-align:center">q.b.</td>
-<td style="text-align:center">q.b.</td>
-</tr>
-<tr>
 <td style="text-align:center">Avenger</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">RT-200</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">RTP-250</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">RT-500</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HPA-500</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-635</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">S-HFC-635</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-800</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HFC-1000</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HGC-1200</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">SML-7</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HTL-1</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">HTL-3</td>
+<td style="text-align:center">Off</td>
+<td style="text-align:center">q.b.</td>
+<td style="text-align:center">q.b.</td>
+</tr>
+<tr>
+<td style="text-align:center">MBML-666</td>
 <td style="text-align:center">Off</td>
 <td style="text-align:center">q.b.</td>
 <td style="text-align:center">q.b.</td>
